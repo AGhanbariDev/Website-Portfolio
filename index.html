@@ -1,0 +1,198 @@
+<!-- --INITIATION SECTION-- -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aydin's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3e4fe3ba05.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+
+<!-- --HOME SECTION-- -->
+
+<py-script>
+    #Can add any python script here.
+</py-script>
+
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/weblogo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Computer Engineer</p>
+            <h1>Hey there!<br>My name is <span >Aydin</span><br>and I aspire to be<br>a computer engineer.</h1>
+        </div>
+    </div>
+</div>
+
+
+<!-- --ABOUT SECTION-- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/babyme.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About</h1>
+                <p class="about-text">I'm a student at TMU starting 
+                    fall of 2023 in the field of Computer Science. In 
+                    my future, I plan on obtaining a masters. I have a 
+                    love for everything tech related and love gaining new 
+                    knowledge!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <!--Place as many skills as you want here-->
+                        <li><span>Python</span><br>Creating amateur level programs</li>
+                        <li><span>Builingual</span><br>French & English</li>
+                        <li><span>Autonomous</span><br>I can work alone to avoid being a burden to my peers</li>
+                        <li><span>Resourceful</span><br>Able to problem solve to compensate for lack of skill</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <!--Place experience here-->
+                        <li><span>Days Inn (July 2021 - August 2021)</span>
+                            <br>Wash and dry bed sheets, bed linens, and towels</li>
+                        <li><span>Technicians Club (February 2022 - June 2022)</span>
+                            <br>Took care of lighting, displays, and audio for school 
+                            events</li>
+                        <li><span>Habitat for Humanity (June 2021 - July 2021)</span>
+                            <br>Completed 40h of voluntering by cleaning/organizing the
+                            retail store, attending to needs of clients and other tasks given
+                            by my superiors</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <!--Place education here-->
+                        <li><span>École secondaire Étienne-Brûlé (2017 - 2023)</span>
+                            <br>Obtained High School Diploma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --SERVICES SECTION-- -->
+
+<div id="services">
+    <div id="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Repudiandae debitis qui maiores exercitationem laborum 
+                    dolor tempore, eum id laboriosam hic quisquam ipsum sunt 
+                    quos modi vitae optio odit incidunt nostrum.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Repudiandae debitis qui maiores exercitationem laborum 
+                    dolor tempore, eum id laboriosam hic quisquam ipsum sunt 
+                    quos modi vitae optio odit incidunt nostrum.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Repudiandae debitis qui maiores exercitationem laborum 
+                    dolor tempore, eum id laboriosam hic quisquam ipsum sunt 
+                    quos modi vitae optio odit incidunt nostrum.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- --PORTFOLIO SECTION-- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <!-- Turn the png into a video in the future -->
+                <img src="images/cursorscurse.png">
+                <div class="layer">
+                    <h3>Cursor's Curse</h3>
+                    <p>This game is about a cursor with a curse of never ending bullets
+                        shooting at him from the sky. In order to survive, the cursor must
+                        dodge bullets for the longest time possible. It has multiple
+                        functionalities such as a menu, levels, a life bar, a saveable
+                        high score, sound effect/music, and animations.</p>
+                    <!--The link here will be a source code or something 
+                        like that so person can look at what I did -->
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <!-- This one too -->
+                <img src="images/herosbattle.png">
+                <div class="layer">
+                    <h3>Hero's Battle</h3>
+                    <p>This game is unfinished. However, it includes much more animation
+                        drawn by myself and multiple movement variations.</p>
+                    <!--The link here will be a source code or something 
+                        like that so person can look at what I did -->
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+
+<!-- --BUTTONS FOR ABOUT SECTION-- -->
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tacontent of tabcontents){
+            tacontent.classList.remove("active-tab");
+        }
+        
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
